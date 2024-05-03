@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chic Nails Studio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Chic Nails Studio</h1>
+        <button id="menu-toggle">Menu</button>
+    </header>
+    <nav id="navbar">
+        <ul>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#booking">Book Appointment</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="portfolio" class="hidden">
+            <h2>Our Finest Designs</h2>
+            <div class="photo-grid">
+                <img src="nails1.jpg" alt="Pink Floral Nail Art">
+                <img src="nails2.jpg" alt="Elegant French Manicure">
+                <img src="nails3.jpg" alt="Summer Beach Nails">
+            </div>
+        </section>
+        <section id="reviews" class="hidden">
+            <h2>What Our Clients Say</h2>
+            <article>
+                <p>"The attention to detail is fantastic! Best nail salon in town." - Emily R.</p>
+            </article>
+            <article>
+                <p>"A relaxing experience with gorgeous results every time!" - Sarah W.</p>
+            </article>
+        </section>
+        <section id="booking" class="hidden">
+            <h2>Book Your Session</h2>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <input type="date" required>
+                <textarea placeholder="Special Requests?"></textarea>
+                <button type="submit">Reserve Now</button>
+            </form>
+        </section>
+        <section id="contact" class="hidden">
+            <h2>Get in Touch</h2>
+            <p>Email: bookings@chicnailsstudio.com</p>
+            <p>Phone: 555-123-4567</p>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Chic Nails Studio. All rights reserved.</p>
+    </footer>
+</body>
+</html>
